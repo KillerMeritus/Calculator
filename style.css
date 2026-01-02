@@ -10,20 +10,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0b1220;
+    background-color:  #1F3A8A;
 }
 
 .calculator{
     border: 1px solid rgba(255,255,255,0.15);
-    background-color: #0f172a;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 16px;
     box-shadow: 0px 4px 20px rgba(59,130,246,0.25);
 }
 
 input{
+
     width: 320px;
-    border: none;
+    border: black;
     padding: 24px;
     margin: 10px;
     background-color: transparent;
@@ -31,7 +32,7 @@ input{
     font-size: 40px;
     text-align: right;
     cursor: pointer;
-    color: #e5e7eb;
+    color: black;
 }
 
 button{
